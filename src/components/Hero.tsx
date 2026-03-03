@@ -9,7 +9,7 @@ export default function Hero() {
       {/* Neural Network Background Animation */}
       <NeuralNetworkBackground />
       
-      {/* Abstract Background Data Pattern (Subtle overlay) */}
+      {/* Abstract Background Data Pattern */}
       <div className="absolute inset-0 opacity-5 pointer-events-none z-0">
         <div className="absolute top-0 left-0 w-full h-full bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]"></div>
       </div>
@@ -85,11 +85,7 @@ export default function Hero() {
             <div className="absolute -inset-4 rounded-full border border-indigo-500/10 animate-[spin_15s_linear_infinite_reverse]" />
             
             {/* Photo Container */}
-            <div className="absolute inset-2 rounded-full overflow-hidden border-4 border-slate-800 shadow-2xl bg-slate-800">
-              {/* 
-                Using Google Drive thumbnail endpoint which is more reliable for embedding.
-                ID: 1veombq9gqZfclB1jQgMzK6CkudO-h6Q0
-              */}
+            <div className="absolute inset-2 rounded-full overflow-hidden border-4 border-slate-800 shadow-2xl bg-slate-800 z-10">
               <img 
                 src="https://drive.google.com/thumbnail?id=1veombq9gqZfclB1jQgMzK6CkudO-h6Q0&sz=w1000" 
                 alt={PROFILE.name}
@@ -98,34 +94,34 @@ export default function Hero() {
               />
             </div>
 
-            {/* Floating Data Badge 1 */}
+            {/* Badge Accuracy - Jauh ke kiri */}
             <motion.div 
-              initial={{ y: 20, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
+              initial={{ x: 50, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
               transition={{ delay: 0.5 }}
-              className="absolute -left-4 top-10 bg-slate-800/90 backdrop-blur border border-slate-700 p-3 rounded-xl shadow-xl flex items-center gap-3"
+              className="absolute -left-24 lg:-left-32 top-10 bg-slate-800/95 backdrop-blur-md border border-slate-700 p-3 rounded-xl shadow-2xl flex items-center gap-3 z-20 min-w-[140px]"
             >
-              <div className="w-10 h-10 rounded-lg bg-blue-500/20 flex items-center justify-center text-blue-400 font-bold">
+              <div className="w-10 h-10 rounded-lg bg-blue-500/20 flex items-center justify-center text-blue-400 font-bold shrink-0">
                 95
               </div>
               <div>
-                <div className="text-xs text-slate-400 uppercase tracking-wider">Accuracy</div>
+                <div className="text-[10px] text-slate-400 uppercase tracking-wider">Accuracy</div>
                 <div className="text-sm font-bold text-white">Model Perf.</div>
               </div>
             </motion.div>
 
-            {/* Floating Data Badge 2 */}
+            {/* Badge Experience - Jauh ke kanan */}
             <motion.div 
-              initial={{ y: -20, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
+              initial={{ x: -50, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
               transition={{ delay: 0.7 }}
-              className="absolute -right-4 bottom-10 bg-slate-800/90 backdrop-blur border border-slate-700 p-3 rounded-xl shadow-xl flex items-center gap-3"
+              className="absolute -right-24 lg:-right-32 bottom-10 bg-slate-800/95 backdrop-blur-md border border-slate-700 p-3 rounded-xl shadow-2xl flex items-center gap-3 z-20 min-w-[140px]"
             >
-              <div className="w-10 h-10 rounded-lg bg-indigo-500/20 flex items-center justify-center text-indigo-400 font-bold">
+              <div className="w-10 h-10 rounded-lg bg-indigo-500/20 flex items-center justify-center text-indigo-400 font-bold shrink-0">
                 2+
               </div>
               <div>
-                <div className="text-xs text-slate-400 uppercase tracking-wider">Years</div>
+                <div className="text-[10px] text-slate-400 uppercase tracking-wider">Years</div>
                 <div className="text-sm font-bold text-white">Experience</div>
               </div>
             </motion.div>

@@ -103,7 +103,7 @@ export default function App() {
       <footer className="py-12 border-t border-slate-800 bg-slate-950">
         <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-slate-500 text-sm">
-            © {new Date().getFullYear()} Alex Anderson. Built with React & Tailwind.
+            © {new Date().getFullYear()} Refido Arjunal Akmal. Built with React & Tailwind.
           </div>
           
           <div className="flex gap-6">
