@@ -215,4 +215,13 @@ export const PROJECTS = [
     link: 'https://dashboard-analysis-spotify-ct5buuaudjvdkpr3wst3qf.streamlit.app/',
     image: 'https://static.wixstatic.com/media/2f9836_1b554a8029a4418195f30b72fb7b3984~mv2.png/v1/fill/w_980,h_551,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/2f9836_1b554a8029a4418195f30b72fb7b3984~mv2.png', // Foto keren bertema audio/Spotify
   },
+  {
+    title: 'Website Analis Dashboard',
+    category: 'Software Development',
+    description: 'An end-to-end data product analyzing 89,000+ tracks. This project features deep-dive EDA into music genres and a Decision Tree Machine Learning model to predict a song’s commercial success based on its acoustic features.',
+    metrics: ['Interactive Real-time Prediction'],
+    tech: ['React Js', 'Vite', 'Vercel'],
+    link: 'https://website-analysis-1q36-phi.vercel.app/',
+    image: 'https://tse4.mm.bing.net/th/id/OIP.qKo_P3VQ3vKD3cKvzAWPtAHaEK?pid=Api&P=0&h=180', // Foto keren bertema audio/Spotify
+  },
 ];
