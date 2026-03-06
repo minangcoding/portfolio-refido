@@ -206,4 +206,13 @@ export const PROJECTS = [
     link: 'https://ygxgsoihxykbimpvinjdce.streamlit.app/',
     image: 'https://tse1.mm.bing.net/th/id/OIP.0ydL-7TOG4UrklvFW0Lc3QHaEK?pid=Api&P=0&h=180',
   },
+  {
+    title: 'Spotify Hit Predictor Dashboard',
+    category: 'Data Science & Analytics',
+    description: 'An end-to-end data product analyzing 89,000+ tracks. This project features deep-dive EDA into music genres and a Decision Tree Machine Learning model to predict a song’s commercial success based on its acoustic features.',
+    metrics: ['89,740 Unique Tracks Analyzed', 'Interactive Real-time Prediction'],
+    tech: ['Python', 'Pandas', 'Scikit-Learn', 'Streamlit', 'Seaborn'],
+    link: 'https://dashboard-analysis-spotify-ct5buuaudjvdkpr3wst3qf.streamlit.app/',
+    image: 'https://static.wixstatic.com/media/2f9836_1b554a8029a4418195f30b72fb7b3984~mv2.png/v1/fill/w_980,h_551,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/2f9836_1b554a8029a4418195f30b72fb7b3984~mv2.png', // Foto keren bertema audio/Spotify
+  },
 ];
