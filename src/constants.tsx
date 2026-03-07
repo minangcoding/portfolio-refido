@@ -170,6 +170,15 @@ export const CERTIFICATES = [
 
 export const PROJECTS = [
   {
+    title: "Al-Qur'an Indonesia Modern",
+    category: 'Software Engineering & Digital Religion',
+    description: 'A sophisticated digital Al-Qur\'an platform featuring interactive surah listings, daily prayers (Doa), and localized prayer times. Built with a focus on high-performance rendering and seamless user experience.',
+    metrics: ['Full 114 Surahs Integrated', 'Real-time API Data Fetching'],
+    tech: ['React.js', 'Tailwind CSS', 'Vite', 'REST API', 'Vercel'],
+    link: 'https://bismillah-jet-two.vercel.app/',
+    image: 'https://iqranetwork.com/wp-content/uploads/2023/09/A_kid_at_kabaa_memorizing_quran_magical_ai_Digital__featured_optimized.png', // Menggunakan foto profil wisuda kamu sebagai hero image
+  },
+  {
     title: 'Bike Sharing Analysis',
     category: 'Data Analyst, Visualization',
     description: 'An interactive dashboard developed to analyze bike rental patterns, identifying key trends based on weather conditions, seasonal impacts, and peak usage hours to optimize fleet distribution.',
