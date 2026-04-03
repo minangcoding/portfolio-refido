@@ -62,7 +62,7 @@ export default function Hero() {
               View Projects <ChevronRight size={18} />
             </a>
             <a 
-              href="https://drive.google.com/file/d/1tNJ7iQ3eKU0VCZf48fEDWm4jJrLWQRMA/view?usp=sharing"
+              href="https://drive.google.com/file/d/1QqIzuNANB8X4YVpm7crtFXUaY69rnEm7/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 bg-slate-800 border border-slate-700 text-slate-200 rounded-lg font-medium hover:bg-slate-700 transition-all flex items-center gap-2"
